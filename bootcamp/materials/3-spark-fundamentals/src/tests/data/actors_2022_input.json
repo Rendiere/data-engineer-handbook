@@ -1,0 +1,23 @@
+[
+  {
+    "actor_name": "Alice",
+    "year": 2022,
+    "films": [{"film": "Film6", "filmid": "6", "rating": 8.0, "votes": 1200}],
+    "quality_class": "good",
+    "is_active": true
+  },
+  {
+    "actor_name": "Bob",
+    "year": 2022,
+    "films": [{"film": "Film7", "filmid": "7", "rating": 7.0, "votes": 700}],
+    "quality_class": "average", 
+    "is_active": true
+  },
+  {
+    "actor_name": "David",
+    "year": 2022,
+    "films": [{"film": "Film8", "filmid": "8", "rating": 9.5, "votes": 2000}],
+    "quality_class": "star",
+    "is_active": true
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "actor_name": "Alice",
+    "year": 2020,
+    "films": [{"film": "Film1", "filmid": "1", "rating": 8.5, "votes": 1000}],
+    "quality_class": "good", 
+    "is_active": true
+  },
+  {
+    "actor_name": "Alice",
+    "year": 2021,
+    "films": [{"film": "Film2", "filmid": "2", "rating": 9.0, "votes": 1500}],
+    "quality_class": "star",
+    "is_active": true
+  },
+  {
+    "actor_name": "Bob", 
+    "year": 2020,
+    "films": [{"film": "Film3", "filmid": "3", "rating": 6.0, "votes": 500}],
+    "quality_class": "average",
+    "is_active": true
+  },
+  {
+    "actor_name": "Bob",
+    "year": 2021, 
+    "films": [{"film": "Film4", "filmid": "4", "rating": 6.5, "votes": 600}],
+    "quality_class": "average",
+    "is_active": false
+  },
+  {
+    "actor_name": "Charlie",
+    "year": 2021,
+    "films": [{"film": "Film5", "filmid": "5", "rating": 7.5, "votes": 800}],
+    "quality_class": "good",
+    "is_active": true
+  }
+]

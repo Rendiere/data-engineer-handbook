@@ -14,6 +14,7 @@ services:
       - ./warehouse:/home/iceberg/warehouse
       - ./notebooks:/home/iceberg/notebooks/notebooks
       - ./data:/home/iceberg/data
+      - ./src:/home/iceberg/src
     environment:
       - AWS_ACCESS_KEY_ID=admin
       - AWS_SECRET_ACCESS_KEY=password
@@ -24,6 +25,7 @@ services:
       - 10000:10000
       - 10001:10001
       - 4040-4042:4040-4042
+      - 7077:7077
   rest:
     image: tabulario/iceberg-rest
     container_name: iceberg-rest

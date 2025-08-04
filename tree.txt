@@ -1,0 +1,184 @@
+.
+├── artifacts
+├── books.md
+├── bootcamp
+│   ├── introduction.md
+│   ├── materials
+│   │   ├── 1-dimensional-data-modeling
+│   │   │   ├── data.dump
+│   │   │   ├── docker-compose.yml
+│   │   │   ├── example.env
+│   │   │   ├── homework
+│   │   │   │   ├── 1. actors_DDL.sql
+│   │   │   │   ├── 2. load_actors.sql
+│   │   │   │   ├── 3. actors_history_ddl.sql
+│   │   │   │   ├── 4. actors_history_scd_backfill.sql
+│   │   │   │   ├── 5. actors_history_scd_incremental.sql
+│   │   │   │   ├── homework.md
+│   │   │   │   ├── submission.sql
+│   │   │   │   └── submission.sql.zip
+│   │   │   ├── lecture-lab
+│   │   │   │   ├── analytical_query.sql
+│   │   │   │   ├── graph_ddls.sql
+│   │   │   │   ├── incremental_scd_query.sql
+│   │   │   │   ├── pipeline_query.sql
+│   │   │   │   ├── player_game_edges.sql
+│   │   │   │   ├── player_player_edges.sql
+│   │   │   │   ├── players_scd_table.sql
+│   │   │   │   ├── players.sql
+│   │   │   │   ├── scd_generation_query.sql
+│   │   │   │   ├── team_vertices.sql
+│   │   │   │   └── unnest_query.sql
+│   │   │   ├── Makefile
+│   │   │   ├── README.md
+│   │   │   ├── scripts
+│   │   │   │   └── init-db.sh
+│   │   │   ├── sql
+│   │   │   │   ├── actor_films.sql
+│   │   │   │   ├── game_details.sql
+│   │   │   │   ├── games.sql
+│   │   │   │   ├── load_players_table_day2.sql
+│   │   │   │   └── player_seasons.sql
+│   │   │   └── visual notes
+│   │   │       ├── 01__Dimensional Data Modeling.png
+│   │   │       └── 02__Idempotency_SCD.png
+│   │   ├── 2-fact-data-modeling
+│   │   │   ├── homework
+│   │   │   │   ├── assignment.sql
+│   │   │   │   ├── assignment.zip
+│   │   │   │   └── homework.md
+│   │   │   ├── lecture-lab
+│   │   │   │   ├── anaylze_datelist.sql
+│   │   │   │   ├── array_metrics_analysis.sql
+│   │   │   │   ├── generate_datelist.sql
+│   │   │   │   ├── generate_monthly_array_metrics.sql
+│   │   │   │   ├── quick_sum_device_hits.sql
+│   │   │   │   └── user_cumulated_populate.sql
+│   │   │   ├── README.md
+│   │   │   ├── resources
+│   │   │   │   └── slides
+│   │   │   │       └── fact-data-modeling-day-1-jade-wilson.pdf
+│   │   │   └── tables
+│   │   │       ├── array_metrics_ddl.sql
+│   │   │       ├── devices.sql
+│   │   │       ├── events.sql
+│   │   │       ├── game_details.sql
+│   │   │       ├── games.sql
+│   │   │       ├── monthly_user_site_hits.sql
+│   │   │       ├── user_datelist_int.sql
+│   │   │       └── users_cumulated.sql
+│   │   ├── 3-spark-fundamentals
+│   │   │   ├── artifacts
+│   │   │   ├── data
+│   │   │   │   ├── devices.csv
+│   │   │   │   ├── events.csv
+│   │   │   │   ├── maps.csv
+│   │   │   │   ├── match_details.csv
+│   │   │   │   ├── matches.csv
+│   │   │   │   ├── medals_matches_players.csv
+│   │   │   │   └── medals.csv
+│   │   │   ├── docker-compose.yaml
+│   │   │   ├── homework
+│   │   │   │   ├── homework_testing.md
+│   │   │   │   └── homework.md
+│   │   │   ├── Makefile
+│   │   │   ├── notebooks
+│   │   │   │   ├── bucket-joins-in-iceberg.ipynb
+│   │   │   │   ├── Caching.ipynb
+│   │   │   │   ├── DatasetApi.ipynb
+│   │   │   │   ├── event_data_pyspark.ipynb
+│   │   │   │   ├── homework.ipynb
+│   │   │   │   └── spark-warehouse
+│   │   │   ├── pyproject.toml
+│   │   │   ├── README.md
+│   │   │   ├── requirements.txt
+│   │   │   ├── run_job.sh
+│   │   │   ├── src
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   └── __init__.cpython-310.pyc
+│   │   │   │   ├── jobs
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-310.pyc
+│   │   │   │   │   │   ├── monthly_user_site_hits_job.cpython-310.pyc
+│   │   │   │   │   │   ├── players_scd_job.cpython-310.pyc
+│   │   │   │   │   │   └── team_vertex_job.cpython-310.pyc
+│   │   │   │   │   ├── assignment_1.py
+│   │   │   │   │   ├── assignment_1.zip
+│   │   │   │   │   ├── assignment_2.py
+│   │   │   │   │   ├── monthly_user_site_hits_job.py
+│   │   │   │   │   ├── optimization_analysis.md
+│   │   │   │   │   ├── players_scd_job.py
+│   │   │   │   │   └── team_vertex_job.py
+│   │   │   │   └── tests
+│   │   │   │       ├── __init__.py
+│   │   │   │       ├── __pycache__
+│   │   │   │       │   ├── __init__.cpython-310.pyc
+│   │   │   │       │   ├── conftest.cpython-310-pytest-8.3.5.pyc
+│   │   │   │       │   ├── conftest.cpython-310-pytest-8.4.1.pyc
+│   │   │   │       │   ├── test_monthly_user_site_hits.cpython-310-pytest-8.4.1.pyc
+│   │   │   │       │   ├── test_player_scd.cpython-310-pytest-8.4.1.pyc
+│   │   │   │       │   └── test_team_vertex_job.cpython-310-pytest-8.4.1.pyc
+│   │   │   │       ├── conftest.py
+│   │   │   │       ├── test_monthly_user_site_hits.py
+│   │   │   │       ├── test_player_scd.py
+│   │   │   │       └── test_team_vertex_job.py
+│   │   │   ├── uv.lock
+│   │   │   └── warehouse
+│   │   ├── 4-apache-flink-training
+│   │   │   ├── docker-compose.yml
+│   │   │   ├── Dockerfile
+│   │   │   ├── example.env
+│   │   │   ├── homework
+│   │   │   │   └── homework.md
+│   │   │   ├── Makefile
+│   │   │   ├── README.md
+│   │   │   ├── requirements.txt
+│   │   │   ├── sql
+│   │   │   │   └── init.sql
+│   │   │   └── src
+│   │   │       └── job
+│   │   │           ├── aggregation_job.py
+│   │   │           └── start_job.py
+│   │   ├── 4-applying-analytical-patterns
+│   │   │   ├── homework
+│   │   │   │   └── homework.md
+│   │   │   ├── lecture-lab
+│   │   │   │   ├── funnel_analysis.sql
+│   │   │   │   ├── grouping_sets.sql
+│   │   │   │   ├── growth_accounting.sql
+│   │   │   │   ├── retention_analysis.sql
+│   │   │   │   └── window_based_analysis.sql
+│   │   │   ├── README.md
+│   │   │   └── tables
+│   │   │       └── user_growth_accounting.sql
+│   │   ├── 5-kpis-and-experimentation
+│   │   │   ├── homework
+│   │   │   │   └── homework.md
+│   │   │   ├── README.md
+│   │   │   ├── requirements.txt
+│   │   │   └── src
+│   │   │       └── server.py
+│   │   ├── 6-data-impact-training
+│   │   │   ├── data
+│   │   │   │   ├── devices.csv
+│   │   │   │   └── events.csv
+│   │   │   ├── homework
+│   │   │   │   └── homework.md
+│   │   │   └── README.md
+│   │   └── 6-data-pipeline-maintenance
+│   │       ├── DataPipelineMaintance.pdf
+│   │       ├── homework
+│   │       │   └── homework.md
+│   │       ├── README.md
+│   │       └── RunbookforEcZachlyIncGrowthPipeline.pdf
+│   └── software.md
+├── communities.md
+├── interviews.md
+├── newsletters.md
+├── projects.md
+├── README.md
+└── tree.txt
+
+46 directories, 136 files

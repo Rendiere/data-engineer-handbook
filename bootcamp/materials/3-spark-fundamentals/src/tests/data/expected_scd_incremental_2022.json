@@ -1,0 +1,66 @@
+[
+  {
+    "actor_name": "Alice",
+    "quality_class": "good",
+    "is_active": true,
+    "start_date": 2020,
+    "end_date": 2020,
+    "current_year": 2022
+  },
+  {
+    "actor_name": "Alice",
+    "quality_class": "star", 
+    "is_active": true,
+    "start_date": 2021,
+    "end_date": 2021,
+    "current_year": 2022
+  },
+  {
+    "actor_name": "Alice",
+    "quality_class": "good",
+    "is_active": true,
+    "start_date": 2022,
+    "end_date": 2022,
+    "current_year": 2022
+  },
+  {
+    "actor_name": "Bob",
+    "quality_class": "average",
+    "is_active": true,
+    "start_date": 2020,
+    "end_date": 2020,
+    "current_year": 2022
+  },
+  {
+    "actor_name": "Bob",
+    "quality_class": "average",
+    "is_active": false,
+    "start_date": 2021,
+    "end_date": 2021,
+    "current_year": 2022
+  },
+  {
+    "actor_name": "Bob",
+    "quality_class": "average",
+    "is_active": true,
+    "start_date": 2022,
+    "end_date": 2022,
+    "current_year": 2022
+  },
+  {
+    "actor_name": "Charlie",
+    "quality_class": "good",
+    "is_active": true,
+    "start_date": 2021,
+    "end_date": 2021,
+    "current_year": 2022
+  },
+  {
+    "actor_name": "David",
+    "quality_class": "star",
+    "is_active": true,
+    "start_date": 2022,
+    "end_date": 2022,
+    "current_year": 2022
+  }
+]
